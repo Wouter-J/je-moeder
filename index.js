@@ -1,7 +1,8 @@
 var jokes = [
         "Je moeder is zo dik dat ze in haar eentje al groepskorting krijgt", 
         "Je moeder is zo lelijk dat ze niet eens kans maakt bij blinden", 
-        "Je moeder kan zo slecht schilderen, dat haar schilderijen zichzelf ophangen"
+        "Je moeder kan zo slecht schilderen, dat haar schilderijen zichzelf ophangen",
+        "Het gewicht van jouw moeder is zo groot dat ze een integer overflow veroorzaakt"
     ];
 
 exports.Joke = function() {
