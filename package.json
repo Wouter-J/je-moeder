@@ -1,4 +1,37 @@
 {
   "name": "je-moeder",
-  "version": "0.0.5"
+  "version": "1.0.0",
+  "author": "WouterJ",
+  "license": "MIT",
+  "description": "Je-moeder jokes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf './dist'",
+    "compile": "npm run clean && tsc",
+    "fmt": "prettier --write . && eslint --fix .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wouter-J/je-moeder.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "je-moeder",
+    "yo momma"
+  ],
+  "homepage": "https://github.com/Wouter-J/je-moeder",
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
+  }
 }
